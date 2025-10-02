@@ -1,0 +1,15 @@
+{
+  "name": "qa-playwright-tests",
+  "version": "1.0.0",
+  "description": "Playwright test automation for the ShopStack application",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:smoke": "npx playwright test -g '@smoke'",
+    "report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.43.0",
+    "typescript": "^5.2.2"
+  }
+}
